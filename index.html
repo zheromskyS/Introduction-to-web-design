@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="logo tool-bar__logo"> <!-- логотип сайта -->
-                    <a class="logo__link" href="index.html"> <!-- ссылка - логотип -->              <!-- !!! -->
+                    <a class="logo__link" href="index.html"> <!-- ссылка - логотип -->
                         <img class="logo__size" src="index/pictures_in_index/HTML5.png" alt="логотип">
                     </a>
                 </div>
@@ -49,5 +49,184 @@
             </div>
         </div>
     </header>
+
+    <main class="page"> <!-- главная -->
+        <div class="frontpage-banner"> <!-- главный блок -->
+            <div class="wrapper"> <!-- обертка -->
+                <div class="frontpage-banner__info"> <!-- информация в главном блоке -->
+                    <div class="frontpage-banner__column"> <!-- колонки с flex -->
+                        <h1 class="frontpage-banner__title">Основы веб-конструирования</h1> <!-- главный заголовок -->
+
+                        <p class="text frontpage-banner__text_under-title">Перед вами учебник по HTML и
+                            CSS, включающий в себя только основы.</p>
+                    </div>
+
+                    <div class="frontpage-banner__column"> <!-- колонки с flex -->
+                        <div class="text frontpage-banner__update-at"> <!-- строка с последним обновлением -->
+                            Последнее обновление &&.&&.&&.
+                        </div>
+
+                        <div class="frontpage-banner__buttons">
+                            <button class="front-button">
+                                <a class="button__link" href="https://htmlbase.ru">HTML справочник</a>
+                            </button>
+
+                            <button class="front-button">
+                                <a class="button__link" href="https://htmlbase.ru">CSS справочник</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="substance frontpage-banner__substance"> <!-- главное содержание -->
+                    <h2 class="frontpage-banner__subtitle">Содержание</h2> <!-- заголовок содержания -->
+
+                    <p class="text frontpage-banner__text">Первая часть посвящена HTML и CSS и их использованию в браузере. <!-- содержание текст -->
+                        <br>
+                        Затем идут дополнительные циклы статей на разные темы.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="frontpage-main"> <!-- главный контент страницы -->
+            <div class="wrapper"> <!-- обертка -->
+                <div class="frontpage-main__languages"> <!-- языки -->
+                    <h2 class="frontpage-main__title">Языки HTML и CSS</h2> <!-- заголовок с языками -->
+
+                    <p class="text frontpage-main__text">Здесь вы можете изучить HTML и CSS, начиная с нуля.</p> <!-- текст, описание заголовка -->
+                    <p class="text frontpage-main__text">Мы сосредоточимся на самих языках, добавляя заметки о средах его исполнения.</p> <!-- текст, описание заголовка -->
+                </div>
+
+                <nav class="frontpage-main__sections"> <!-- главная секция -->
+                    <div class="section-block">
+                        <a href="items/item-1/item-1.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции -->
+                            Веб-конструирование
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list"> <!-- список -->
+                            <div class="sections-list__column">
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">1.1</span>
+                                    <a href="items/item-1/subitems-1/subitem_1.1.html" class="section-list__link frontpage-main__link">Веб-сайт</a> <!-- ссылка элемента в секции -->
+                                </li>
+
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">1.2</span>
+                                    <a href="items/item-1/subitems-1/subitem_1.2.html" class="section-list__link frontpage-main__link">Язык гипертекстовой разметки документа HTML</a> <!-- ссылка элемента в секции -->
+                                </li>
+
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">1.3</span>
+                                    <a href="items/item-1/subitems-1/subitem_1.3.html" class="section-list__link frontpage-main__link">Структура HTML-документа</a> <!-- ссылка элемента в секции -->
+                                </li>
+                            </div>
+
+                            <div class="sections-list__column">
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">1.4</span>
+                                    <a href="items/item-1/subitems-1/subitem_1.4.html" class="section-list__link frontpage-main__link">Теги и атрибуты</a> <!-- ссылка элемента в секции -->
+                                </li>
+
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">1.5</span>
+                                    <a href="items/item-1/subitems-1/subitem_1.5.html" class="section-list__link frontpage-main__link">Гиперссылки</a> <!-- ссылка элемента в секции -->
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <a href="items/item-2/item-2.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции - ссылка -->
+                            Создание веб-страниц
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list">  <!-- список -->
+                            <div class="sections-list__column">
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">2.1</span>
+                                    <a href="items/item-2/subitems-2/subitem_2.1.html" class="section-list__link frontpage-main__link">Инструменты создания веб-страниц</a> <!-- ссылка элемента в секции -->
+                                </li>
+
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">2.2</span>
+                                    <a href="items/item-2/subitems-2/subitem_2.2.html" class="section-list__link frontpage-main__link">Элементы оформления веб-страниц</a> <!-- ссылка элемента в секции -->
+                                </li>
+                            </div>
+
+                            <div class="sections-list__column">
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">2.3</span>
+                                    <a href="items/item-2/subitems-2/subitem_2.3.html" class="section-list__link frontpage-main__link">Текст на веб-странице</a> <!-- ссылка элемента в секции -->
+                                </li>
+
+                                <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                    <span class="sections-list__numbers">2.4</span>
+                                    <a href="items/item-2/subitems-2/subitem_2.4.html" class="section-list__link frontpage-main__link">Гиперссылки на веб-странице</a> <!-- ссылка элемента в секции -->
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <a href="items/item-3/item-3.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции - ссылка -->
+                            Понятие о каскадных таблицах стилей
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list"> <!-- список -->
+                            <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                <span class="sections-list__numbers">3.1</span>
+                                <a href="items/item-3/subitems-3/subitem_3.1.html" class="section-list__link frontpage-main__link">CSS</a> <!-- ссылка элемента в секции -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <a href="items/item-4/item-4.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции - ссылка -->
+                            Мультимедиа на веб-страницах
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list"> <!-- список -->
+                            <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                <span class="sections-list__numbers">4.1</span>
+                                <a href="items/item-4/subitems-4/subitem_4.1.html" class="section-list__link frontpage-main__link">Графика на веб-страницах</a> <!-- ссылка элемента в секции -->
+                            </li>
+
+                            <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                <span class="sections-list__numbers">4.2</span>
+                                <a href="items/item-4/subitems-4/subitem_4.2.html" class="section-list__link frontpage-main__link">Звук и видео на веб-страницах</a> <!-- ссылка элемента в секции -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="section-block">
+                        <a href="items/item-5/item-5.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции - ссылка -->
+                            Визуальное веб-конструирование
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list"> <!-- список -->
+                            <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                <span class="sections-list__numbers">5.1</span>
+                                <a href="items/item-5/subitems-5/subitem_5.1.html" class="section-list__link frontpage-main__link">WYSIWYG</a> <!-- ссылка элемента в секции -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <a href="items/item-6/item-6.html" class="section-title frontpage-main_section-title"> <!-- заголовок секции - ссылка -->
+                            Разработка фрагментов тематических сайтов
+                        </a>
+
+                        <ul class="sections-list frontpage-main__sections-list"> <!-- список -->
+                            <li class="sections-list__item frontpage-main__item"> <!-- пункт -->
+                                <span class="sections-list__numbers">6.1</span>
+                                <a href="items/item-6/subitems-6/subitem_6.1.html" class="section-list__link frontpage-main__link">Поиск в Интернете</a> <!-- ссылка элемента в секции -->
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
