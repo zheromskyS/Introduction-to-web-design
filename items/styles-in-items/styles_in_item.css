@@ -13,6 +13,11 @@
 
 /* dependent */
 
+.frontpage-footer__link {
+    font-size: 13px;
+    line-height: normal;
+}
+
 .tool-bar__link {
     font-size: 20px;
     color: #868d9a;
@@ -192,3 +197,28 @@ footer {
 .frontpage-banner__column {
     padding: 0;
 }
+
+.footer-wrapper {
+    margin: 0;
+}
+
+.frontpage-footer {
+    margin: 0;
+    padding: 0;
+}
+
+.frontpage-footer__sections-list {
+    display: flex;
+    justify-content: left;
+}
+
+.frontpage-footer__item {
+    border-right: 2px solid #e9e6e4;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.frontpage-footer__item_3 {
+    border-right: none;
+}
+
